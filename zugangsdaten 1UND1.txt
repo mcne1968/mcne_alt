@@ -1,0 +1,29 @@
+Kundennummer/Nutzername : 209160019
+Server/	Host		: home462126017.1and1-data.host
+User/Benutzername	: u72710726
+Port			: 990
+Passwortänderung        : 2Nebras47#i
+babakan@t-online.de
+
+
+Oracle    https://myservices-nebras.console.oraclecloud.com
+babakan@t-online.de   2Nebras47#o1309
+
+
+
+Datenbank		dbs290275
+Beschreibung		mynebras
+
+Hostname		db5000297056.hosting-data.io
+Port			3306
+Benutzername		dbu513178
+Typ und Version		MySql 5.7
+Speicher		0 von 1000 MB verwendet
+Passwort		2Nebras47#i
+
+
+<?php
+//Step1
+ $db = mysqli_connect('db5000297056.hosting-data.io','dbu513178','2Nebras47#i','dbs290275')
+ or die('Error connecting to MySQL server.');
+?>

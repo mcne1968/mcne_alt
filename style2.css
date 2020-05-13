@@ -1,0 +1,79 @@
+.marquee {
+  margin: 0 auto;
+  width: 600px;       
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+  
+  &:before, &:after {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    height: 30px;
+    content: "";
+    z-index: 1;
+  }
+  &:before {
+    left: 0;
+    background: linear-gradient(to right, white 5%, transparent 100%);
+  }
+  &:after {
+    right: 0;
+    background: linear-gradient(to left, white 5%, transparent 100%);
+  }
+}
+
+.marquee__content {
+  width: 300% !important;
+  display: flex;
+  line-height: 30px;
+  animation: marquee 10s linear infinite forwards;
+  &:hover {
+    animation-play-state: paused;
+  } 
+}
+
+.list-inline {
+  display: flex;
+  justify-content: space-around;
+  width: 33.33%;
+  
+  /* reset list */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-66.6%); }
+}
+.blinking{
+    animation:blinkingText 3.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: rgb(29, 1, 1);    }
+    49%{    color: rgb(51, 3, 3); }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: rgb(17, 5, 71);    }
+}
+.red {
+  background-color: rgb(46, 4, 4);
+}
+.flattersatz {
+  text-align: left;
+}
+
+.mittelachsensatz {
+  text-align: center;
+}
+
+.blocksatz {
+  text-align: justify;
+}
+.body {
+  background-image:url(images/kunden/100.jpg);
+}
+

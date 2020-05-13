@@ -1,0 +1,225 @@
+/*----------------------------------------------------------------------------
+	colorscheme1.css for colorscheme 1
+
+	this css-file contains all definitions, that depend on the colorscheme.
+
+	(c) Schlund + Partner AG
+----------------------------------------------------------------------------*/
+
+
+/*-- main container --------------------------------------------------------*/
+
+#container {
+	background : url(images/static/contentbg.gif) repeat-y 50% 50%;
+}
+
+/*--- header ---------------------------------------------------------------*/
+#header	{
+	background : url(images/static/headerbg.gif) no-repeat;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+#main_nav_container {
+	background-color: #FFFFFF;
+}
+
+/*--- sub container1 -------------------------------------------------------*/
+#sub_container1 {
+	background-color: #FFFFFF;
+}
+
+/*--- key visiual ----------------------------------------------------------*/
+
+#key_visual {
+	background: url(../../images/dynamic/key_visual1.jpg) no-repeat;
+}
+
+#key_visual_down {
+	background: #FFFFFF url(images/static/leftbg.gif) repeat-x;
+}
+
+
+/*--- logo -----------------------------------------------------------------*/
+
+#logo {
+}
+
+/*--- caption --------------------------------------------------------------*/
+
+#text_caption {
+	color: #657701;
+}
+
+/*--- main navigation ------------------------------------------------------*/
+
+#main_nav_list	{
+	background-color: #FFFFFF;
+}
+
+/*--- main navigation items ------------------------------------------------*/
+
+#main_nav_list a.main_nav_item {
+	color: #990033;
+}
+
+#main_nav_list a.main_nav_item:hover {
+	color: #FFFFFF;
+}
+
+#main_nav_list a.main_nav_active_item {
+	color: #FFFFFF;
+}
+
+/*--- subnavigation items --------------------------------------------------*/
+
+#sub_nav_list a.sub_nav_item {
+	color: #657701;
+}
+
+#sub_nav_list a.sub_nav_item:hover {
+	color: #657701;
+}
+
+#sub_nav_list a.sub_nav_active_item {
+	color: #657701;
+}
+
+/*--- footer ---------------------------------------------------------------*/
+
+#footer {
+	background: transparent url(images/static/footerbg.gif) top left no-repeat;
+}
+
+#footer_text {
+	color: #657701;
+}
+
+
+/*----------------------------------------------------------------------------
+  default-styles for html-elements
+----------------------------------------------------------------------------*/
+
+/*--- body -----------------------------------------------------------------*/
+
+body#main_body {
+	color: #657701;
+	background : #9FB817 url(images/static/pgbk.gif) repeat-x;
+}
+
+/*--- paragraph ------------------------------------------------------------*/
+
+#content_container p {
+	color: #657701;
+}
+
+/*--- headings -------------------------------------------------------------*/
+
+#content_container h1 {
+	color: #9FB817;
+}
+
+#content_container h2 {
+	color: #9FB817;
+}
+
+#content_container h3 {
+	color: #9FB817;
+}
+
+/*--- links ----------------------------------------------------------------*/
+
+#content_container a:link{
+	color: #505E01;
+}
+
+#content_container a:visited {
+	color: #505E01;
+}
+
+#content_container a:hover {
+	color: #505E01;
+}
+
+#content_container a:active {
+	color: #505E01;
+}
+
+/*--- tables ---------------------------------------------------------------*/
+
+table {
+
+}
+
+th {
+
+}
+
+tr {
+
+}
+
+td {
+
+}
+
+#content_container table {
+	border-color: #657701;
+}
+
+#content_container th {
+	color: #FFFFFF;
+	background-color:#9FB817;
+	padding: 3px 2px 3px 2px;
+}
+
+#content_container tr.odd {
+	color: #657701;
+	border-color: #657701;
+	background-color:#FFFFFF;
+	padding: 3px 2px 3px 2px;
+}
+
+#content_container tr.even {
+	color: #0d0f02;
+	border-color: #657701;
+	background-color:#FFFFFF;
+	padding: 3px 2px 3px 2px;
+}
+
+/*--- forms ----------------------------------------------------------------*/
+
+#content_container fieldset {
+	border-color: #657701;
+}
+
+#content_container legend{
+	color: #657701;
+}
+
+#content_container label {
+	color: #657701;
+}
+
+#content_container input {
+	border-color: #C7D677;
+}
+
+#content_container textarea {
+	border-color: #657701;
+}
+
+#content_container button {
+	color: #FFFFFF;
+	border-color: #6B770A;
+	background-color: #657701;
+}
+
+/*--------------------------------------------------------------------------*/
+
+#content_container ul {
+	color: #657701;
+}
+
+#content_container li {
+	color: #110509;
+}
